@@ -1,0 +1,91 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-position: center right;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text {
+    padding-left: 100px;
+}
+
+.text h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.text span {
+    color: #474fa0;
+}
+
+.div1 {
+    background-image: url("images/X70.png");
+    width: 900px;
+    height: 90vh;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 100px;
+}
+
+.form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+    position: absolute;
+    bottom: 6rem;
+    left: 100px;
+    background: lightcyan;
+    padding: 20px;
+    border-radius: 0.5rem;
+    width: 900px;
+}
+
+.input-box {
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box span {
+    font-weight: 500;
+}
+
+.input-box input {
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.input-box select {
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-container form .btn {
+    flex: 1 1 7rem;
+    padding: 10px 34px;
+    border: none;
+    background: #474fa0;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-container form .btn:hover {
+    background: lightgreen;
+    align-items: center;
+}
